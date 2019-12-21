@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="css/style.css">
-<title>Adblock Detector</title> 
-<script type='text/javascript' src='http://sqrtlewy.cba.pl/advertisement.js'></script> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Adblock Detector</title>
+    <script type='text/javascript' src='http://sqrtlewy.cba.pl/advertisement.js'></script>
 </head>
 <body>
 <p>The file 'advertisement.js' must be hosted. Locally not working.</p>
-	<script type="text/javascript">
-	if (document.getElementById("detect") != undefined)
-			  {
-			    document.write('<div class="disable-adblock"><strong>Great!</strong> You have turned off AdBlock! ( ͡° ͜ʖ ͡°). </div>');
-			  }
-			  else
-			  {
-			    document.write('<div class="enable-adblock"><strong>Oh, not good!</strong> You have enabled AdBlock ( ͡° ʖ̯ ͡°)</div>');
-			  }
-	</script>
+<script type="text/javascript">
+    if (document.getElementById("detect") != undefined) {
+        document.write('<div class="disable-adblock"><strong>Great!</strong> You have turned off AdBlock! ( ͡° ͜ʖ ͡°)</div>');
+    } else {
+        document.write('<div class="enable-adblock"><strong>Oh, not good!</strong> You have enabled AdBlock ( ͡° ʖ̯ ͡°)</div>');
+    }
+</script>
 </body>
 </html>
